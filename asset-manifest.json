@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/homework-7-frinesar/static/css/main.4ef83719.css",
+    "main.js": "/homework-7-frinesar/static/js/main.27aafd29.js",
+    "index.html": "/homework-7-frinesar/index.html",
+    "main.4ef83719.css.map": "/homework-7-frinesar/static/css/main.4ef83719.css.map",
+    "main.27aafd29.js.map": "/homework-7-frinesar/static/js/main.27aafd29.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ef83719.css",
+    "static/js/main.27aafd29.js"
+  ]
+}
