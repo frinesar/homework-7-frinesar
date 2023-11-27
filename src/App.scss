@@ -22,29 +22,36 @@ h1 {
   padding: 0;
   margin: 0;
   font: inherit;
+
   display: inline-block;
   cursor: pointer;
   padding: 10px 20px;
   border-radius: 20px;
   transition: all 0.2s ease;
+
+  &_default {
+    border: 1px solid blueviolet;
+    outline-color: blueviolet;
+
+    &:hover {
+      background-color: blueviolet;
+      color: white;
+      transform: translateY(-2px);
+      box-shadow: 2px 2px 5px black;
+    }
+  }
+
+  &_delete {
+    border: 1px solid #e30b5c;
+    outline-color: #e30b5c;
+
+    &:hover {
+      background-color: #e30b5c;
+
+      box-shadow: 2px 2px 5px black;
+      transform: translateY(-2px);
+
+      color: white;
+    }
+  }
 }
-.button_default {
-  border: 1px solid blueviolet;
-  outline-color: blueviolet;
-}
-.button_default:hover {
-  background-color: blueviolet;
-  color: white;
-  transform: translateY(-2px);
-  box-shadow: 2px 2px 5px black;
-}
-.button_delete {
-  border: 1px solid #e30b5c;
-  outline-color: #e30b5c;
-}
-.button_delete:hover {
-  background-color: #e30b5c;
-  box-shadow: 2px 2px 5px black;
-  transform: translateY(-2px);
-  color: white;
-}/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,16 @@
+.form {
+  font: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  input {
+    font: inherit;
+    border: 1px solid blueviolet;
+    padding: 10px;
+    outline-color: blueviolet;
+    &:focus {
+      border: blueviolet;
+    }
+  }
+}
